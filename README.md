@@ -16,3 +16,5 @@ f) Stemming words in each document.
 
 __Step 3: Extracting Bag-of-Words features__
 Each document is transformed into a Bag-of-Words feature representation
+
+As the set of words in the training is not the same as the test set, unknown words ignored or replaced with the special <UNK> token.
