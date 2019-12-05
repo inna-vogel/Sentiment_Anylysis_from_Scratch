@@ -13,3 +13,6 @@ c) Normalize uppercase letters by converting them to lowercase
 d) Tokenization
 e) Removing stop words
 f) Stemming words in each document.
+
+__Step 3: Extracting Bag-of-Words features__
+Each document is transformed into a Bag-of-Words feature representation
