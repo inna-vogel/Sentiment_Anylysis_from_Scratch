@@ -15,6 +15,9 @@ e) Removing stop words
 f) Stemming words in each document.
 
 __Step 3: Extracting Bag-of-Words features__
-Each document is transformed into a Bag-of-Words feature representation
+Each document is transformed into a Bag-of-Words feature representation.
+
+The dictionary or vocabulary  𝑉  (set of words shared by documents in the training set) used here will be the one on which we train our supervised learning algorithm. Any future test data must be transformed in the same way for us to be able to apply the learned model for prediction.
+
 
 As the set of words in the training is not the same as the test set, unknown words ignored or replaced with the special <UNK> token.
