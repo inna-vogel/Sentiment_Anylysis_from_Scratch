@@ -14,6 +14,8 @@ d) Tokenization
 e) Removing stop words
 f) Stemming words in each document.
 
+The preprocessed reviews (train and test) are then stored to the cache  
+
 __Step 3: Extracting Bag-of-Words features__
 Each document is transformed into a Bag-of-Words feature representation.
 
