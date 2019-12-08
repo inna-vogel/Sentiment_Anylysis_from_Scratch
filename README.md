@@ -21,5 +21,7 @@ Each document is transformed into a Bag-of-Words feature representation.
 
 The dictionary or vocabulary  𝑉  (set of words shared by documents in the training set) used here will be the one on which we train our supervised learning algorithm. Any future test data must be transformed in the same way for us to be able to apply the learned model for prediction.
 
-
 As the set of words in the training is not the same as the test set, unknown words ignored or replaced with the special <UNK> token.
+
+__Step 4: Classification__
+The data is trained on a Naive Bayes classifier from scikit-learn (GaussianNB)
