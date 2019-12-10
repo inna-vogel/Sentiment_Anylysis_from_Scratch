@@ -24,4 +24,4 @@ The dictionary or vocabulary  𝑉  (set of words shared by documents in the tra
 As the set of words in the training is not the same as the test set, unknown words ignored or replaced with the special <UNK> token.
 
 __Step 4: Classification__
-The data is trained on a Naive Bayes classifier from scikit-learn (GaussianNB), a Radient-Boosted Decision Tree classifier 
+The data is trained on a Naive Bayes classifier from scikit-learn (GaussianNB) and a Radient-Boosted Decision Tree classifier 
