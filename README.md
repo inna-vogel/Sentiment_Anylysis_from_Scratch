@@ -1,4 +1,4 @@
-# Sentiment_Anylysis_from_Scratch
+# Udacity's Sentiment Anylysis from Scratch
 Udacity's "Sentiment Anylysis from Scratch" implementation from the Nanodegree program NLP
 
 __Step 1: Data__
